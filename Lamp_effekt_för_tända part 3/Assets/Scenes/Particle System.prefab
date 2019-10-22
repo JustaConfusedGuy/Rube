@@ -168,7 +168,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 3
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -660,7 +660,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 10
+    angle: 2
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -982,18 +982,18 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
+          value: 0.8918934
           inSlope: 0
-          outSlope: 1
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 1
+          time: 0.3627472
           value: 1
           inSlope: 1
-          outSlope: 0
+          outSlope: 1
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
@@ -1034,19 +1034,19 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
+          time: 0.009803772
+          value: 0.5405426
+          inSlope: -1.5904437
+          outSlope: -1.5904437
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
-          outWeight: 0.33333334
+          outWeight: 0.25742587
         - serializedVersion: 3
-          time: 1
-          value: 1
+          time: 0.5882416
+          value: 0.8783779
           inSlope: 1
-          outSlope: 0
+          outSlope: 1
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
@@ -1303,8 +1303,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.7075472, g: 0.14017443, b: 0.14017443, a: 1}
-        key1: {r: 0.8773585, g: 0.74929994, b: 0.06621574, a: 0}
+        key0: {r: 0.16096693, g: 0.14117646, b: 0.7058824, a: 1}
+        key1: {r: 0.13358848, g: 0.745283, b: 0.35226434, a: 0}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1332,17 +1332,17 @@ ParticleSystem:
         m_NumAlphaKeys: 2
       minGradient:
         serializedVersion: 2
-        key0: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
-        key1: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 0}
-        key2: {r: 1, g: 1, b: 1, a: 0}
+        key0: {r: 0.0983446, g: 0.8018868, b: 0.77605927, a: 1}
+        key1: {r: 0.2955587, g: 0.9245283, b: 0.14827342, a: 0}
+        key2: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 27178
-        ctime1: 41056
-        ctime2: 46530
+        ctime0: 41056
+        ctime1: 47224
+        ctime2: 50115
         ctime3: 0
         ctime4: 0
         ctime5: 0
@@ -2783,7 +2783,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     separateAxes: 0
-    frequency: 0.5
+    frequency: 0.0001
     damping: 1
     octaves: 1
     octaveMultiplier: 0.5
@@ -2852,21 +2852,21 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
+          value: -0.10810852
           inSlope: 0
-          outSlope: 1
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 1
+          time: 0.95588684
           value: 1
-          inSlope: 1
-          outSlope: 0
+          inSlope: 9.690148
+          outSlope: 9.690148
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
+          inWeight: 0.1692347
           outWeight: 0.33333334
         m_PreInfinity: 2
         m_PostInfinity: 2
