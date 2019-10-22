@@ -23,7 +23,7 @@ public class pushed_object : MonoBehaviour
     {
         if (collision.tag == "fly")
         {
-            rb.AddForce(-250, 250, 0);
+            rb.AddForce(250, 250, 0);
         }
         }
 
