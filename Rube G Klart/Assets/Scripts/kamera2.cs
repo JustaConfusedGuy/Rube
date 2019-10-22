@@ -9,6 +9,6 @@ public class kamera2 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        kamera.transform.position = new Vector3(0,0,0);   
+        kamera.transform.position = new Vector3(30 , 9, -2);
     }
 }
