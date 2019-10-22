@@ -11,7 +11,7 @@ public class partcleStart : MonoBehaviour
     {
         if (collision.gameObject.name == "vägg")
         {
-            Instantiate(particle, new Vector3(40, 9 , -9), Quaternion.identity);
+            Instantiate(particle, new Vector3(40, 9 , 15), Quaternion.identity);
         }
     }
 }
